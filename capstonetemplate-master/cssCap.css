@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 12px;
+    font-size: 18px;
+    text-align: left;
+  }
+.grid-item2{
+  text-align: center;
+}
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  .center{
+    text-align: center;
+  }
+  .resizedTextbox {width: 45px; height: 30px}
